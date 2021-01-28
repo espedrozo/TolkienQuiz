@@ -1,29 +1,31 @@
 
 {
     "bg": "https://wallpaperaccess.com/full/815634.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "J.R.R. Tolkien Quiz",
+    "description": "Teste os seus conhecimentos sobre o grande escritor J.R.R. Tolkien e o universo da Terra Média",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://i.pinimg.com/originals/0a/ed/41/0aed411ba0b885c55ae1e2b3daba5615.gif",
+        "title": "Segundo estimativas, quantas línguas J.R.R. Tolkien criou para suas histórias da Terra Média?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 4,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "apenas 1 língua",
+          "entorno de 3 línguas",
+          "entorno de 9 línguas",
+          "entorno de 12 línguas"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 3,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
         ]
       }
     ],
