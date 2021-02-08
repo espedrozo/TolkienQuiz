@@ -8,19 +8,115 @@
         "image": "https://i.pinimg.com/originals/0a/ed/41/0aed411ba0b885c55ae1e2b3daba5615.gif",
         "title": "Segundo estimativas, quantas línguas J.R.R. Tolkien criou para suas histórias da Terra Média?",
         "description": "Essa é pra aquecer",
-        "answer": 4,
+        "answer": 3,
         "alternatives": [
           "apenas 1 língua",
-          "entorno de 3 línguas",
-          "entorno de 9 línguas",
-          "entorno de 12 línguas"
+          "cerca de 3 línguas",
+          "cerca de 9 línguas",
+          "cerca de 12 línguas"
         ]
       },
       {
         "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
         "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
-        "description": "Faz tempo em haha",
+        "description": "Essa é para fãns",
+        "answer": 2,
+        "alternatives": [
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual foi o primeiro livro escrito por J.R.R. Tolkien?",
+        "description": "Vamos lá..",
         "answer": 3,
+        "alternatives": [
+           "The Children of Húrin",
+           "The Hobbit",
+           "The Lord of the Rings",
+           "The Silmarillion"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Você sabe qual era o nome completo de J.R.R. Tolkien?",
+        "description": "Diz aí!",
+        "answer": 1,
+        "alternatives": [
+           "James Roman River Tolkien",
+           "John Ronald Reuel Tolkien",
+           "Jorge Rohan Raul Tolkien",
+           "Joseph Randall Ray Tolkien"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
+        "description": "Essa é para fãns",
+        "answer": 2,
+        "alternatives": [
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
+        "description": "Essa é para fãns",
+        "answer": 2,
+        "alternatives": [
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
+        "description": "Essa é para fãns",
+        "answer": 2,
+        "alternatives": [
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
+        "description": "Essa é para fãns",
+        "answer": 2,
+        "alternatives": [
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
+        "description": "Essa é para fãns",
+        "answer": 2,
+        "alternatives": [
+           "Unfinished Tales of Numenor and Middle-earth",
+           "The Children of Húrin",
+           "Beren and Lúthien",
+           "The Legend of Sigurd and Gudrún"
+        ]
+      },
+      {
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/937179664414200129/2F255EC4D4BB03474CD4B963F27E7C7BE066F667/",
+        "title": "Qual livro escrito por J.R.R Tolkien foi inspirado em sua própria história de amor com sua esposa Edith Tolkien?",
+        "description": "Essa é para fãns",
+        "answer": 2,
         "alternatives": [
            "Unfinished Tales of Numenor and Middle-earth",
            "The Children of Húrin",
@@ -28,9 +124,11 @@
            "The Legend of Sigurd and Gudrún"
         ]
       }
+      
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { motion } from 'framer-motion';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -11,6 +12,8 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
+import Link from '../src/components/Link';
+import BackLinkArrow from '../src/components/BackLinkArrow';
 
 // const BackgroundImage = styled.div`
 // background-image: url(${db.bg});
@@ -42,10 +45,22 @@ export default function Home() {
       </Head>
       <QuizContainer>
         <QuizLogo />
-        <Widget>
+        <Widget
+          transition={{ delay: 0, duration: 0.5 }}
+          as={motion.section}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Header>
-            <h1>The Lord of The Rings</h1>
+          
+            <h1>J.R.R. Tolkien Quiz</h1>
+          
           </Widget.Header>
+          
           <Widget.Content>
             <form onSubmit={function(infosDoEvento) {
               infosDoEvento.preventDefault();
@@ -67,14 +82,52 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget
+          transition={{ delay: 0.5, duration: 0.5 }}
+          as={motion.section}
+          variants={{
+            show: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Content>
             <h1>Quiz da Galera</h1>
 
-            <p>lista de quiz</p>
+            <ul>
+              {db.external.map((linkExterno) => {
+                const [projectName, githubUser] = 'https://imersaoquiz-base.espedrozo.vercel.app/'
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .replace('-base', '')
+                  .split('.')
+                return (
+                  <li key={linkExterno}>
+                    <Widget.Topic
+                      // as={Link}
+                      href={`/quiz/${projectName}___${githubUser}`}
+                    
+                    >
+                      {`${githubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                )
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
-        <Footer />
+        <Footer
+          transition={{ delay: 0.8, duration: 0.5 }}
+          as={motion.footer}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        />
       </QuizContainer>
       <GitHubCorner projectUrl="https: //github.com/omariosouto" />
     </QuizBackground>
