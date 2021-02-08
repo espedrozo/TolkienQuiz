@@ -58,7 +58,15 @@ function LoadingWidget() {
         </Widget.Header>
   
         <Widget.Content>
-          [Desafio do Loading]
+          <img src="https://media1.tenor.com/images/a7db7f5ada7cde5812c6e8cbbab4fbd8/tenor.gif?itemid=13972422"
+            style = {{
+                width: '100%',
+                height: '100%',
+                display: 'center',
+
+            }} >
+
+            </img>
         </Widget.Content>
       </Widget>
     );
@@ -180,7 +188,7 @@ export default function QuizPage() {
     React.useEffect(() => {
         setTimeout(() => {
            setScreenState(screenStates.QUIZ);
-        }, 1 * 1000);
+        }, 2 * 1000);
     }, []);
     
     function handleSubmitQuiz() {
