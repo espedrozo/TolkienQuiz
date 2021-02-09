@@ -58,11 +58,12 @@ function LoadingWidget() {
         </Widget.Header>
   
         <Widget.Content>
-          <img src="https://media1.tenor.com/images/a7db7f5ada7cde5812c6e8cbbab4fbd8/tenor.gif?itemid=13972422"
+          <img src="https://i.imgur.com/llF5iyg.gif"
             style = {{
-                width: '100%',
-                height: '100%',
-                display: 'center',
+                width: '50%',
+                height: '50%',
+                display: 'block',
+                margin: 'auto',  
 
             }} >
 

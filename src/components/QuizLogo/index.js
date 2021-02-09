@@ -3,8 +3,20 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 function Logo({ className }) {
-  return (
-    <svg className={className} width="135" height="67" viewBox="0 0 135 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+  return ( 
+  <img 
+  
+    src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/JRR_Tolkien_signature_-_from_Commons.svg/220px-JRR_Tolkien_signature_-_from_Commons.svg.png" 
+    style = {{
+                  width: '100%',
+                  height: '100%',
+                  display: 'block',
+                  margin: 'auto',  
+
+    }}
+  ></img>
+
+    /*<svg className={className} width="135" height="67" viewBox="0 0 135 67" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clipPath="url(#clip0)">
         <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="2" y="2" width="110" height="50" fill="black">
           <rect fill="white" x="2" y="2" width="110" height="50" />
@@ -24,7 +36,7 @@ function Logo({ className }) {
           <rect width="134.373" height="67" fill="white" />
         </clipPath>
       </defs>
-    </svg>
+    </svg>*/
   );
 }
 
