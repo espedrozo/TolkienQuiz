@@ -1,5 +1,6 @@
-<img src="./img/tolkienquiz.png">
-<img src="./img/tolkienquiz2.png">
+![tolkienquiz](https://user-images.githubusercontent.com/74929871/116789360-db80fa00-aa84-11eb-9120-fe2af2855c6d.png)
+![tolkienquiz2](https://user-images.githubusercontent.com/74929871/116789369-de7bea80-aa84-11eb-858b-e47434be86f7.png)
+
 
 # Example app with styled-components
 
